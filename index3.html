@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sabbah</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #0167ff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            grid-row: 1;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-row: 2;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        .blog-post {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .blog-post h2 {
+            margin-top: 0;
+        }
+
+        .blog-post img {
+            width: 100%; /* Make the image fill its container */
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .home {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #333;
+            background-color: #eee;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+
+        .home:hover {
+            background-color: #360a82;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            grid-row: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>sabbah Blog </h1>
+        </header>
+        <main>
+            <div class="content">
+                <article class="blog-post">
+                    <h2>javascript</h2>
+                    <img src="/ICONE/JavaScript.png" alt="Example Image">
+                    <p>
+                        Interactivity's muse, it breathes life anew,
+                        With DOM manipulation, it crafts views true.
+                        Event-driven, it listens, responsive and keen,
+                        Handling clicks, scrolls, like a silent unseen.
+                        From basic scripts to complex frameworks grand,<br/>
+                        JavaScript's reach extends over the land.<br/>
+                        Angular, React, Vue, in its embrace,<br/>
+                        It builds UIs with elegance and grace.<br/><br/>
+                        Node.js emerges, on the server it thrives,
+                        JavaScript's versatility further derives.<br/>
+                        With async-await, promises, it conquers time,
+                        Handling tasks seamlessly, a paradigm prime.<br/>
+                        In the realm of data, JSON it adores,
+                        A symbiotic bond, forevermore.<br/>
+                        APIs it consumes, data it fetches,
+                        JavaScript's journey, innovation etches.<br/><br/>
+                        The language of the browser, ubiquitous and free,
+                        JavaScript whispers tales from every tree.<br/>
+                        From novice learners to seasoned vets,
+                        It welcomes all to code's cadence sets.<br/><br/>
+                        Yet with great power, challenges arise,
+                        Cross-browser quirks, a developer's surprise.<br/>
+                        But libraries and tools stand as allies,
+                        Solving problems, reaching for the skies.<br/><br/>
+                        Community-driven, it thrives and grows,
+                        Stack Overflow's beacon, a knowledge glows.<br/>
+                        Meetups, forums, where developers unite,
+                        Sharing insights, fostering delight.<br/>
+                        With every update, JavaScript evolves,
+                        New features emerge, like mysteries solved.<br/>
+                        But its core remains, dynamic and bright,
+                        In the digital dawn, it continues its flight.</p>
+                    <a href="index.html" class="home">home</a>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 sabbah Blog</p>
+        </footer>
+    </div>
+</body>
+</html>

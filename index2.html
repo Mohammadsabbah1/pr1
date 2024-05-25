@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sabbah Blog </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #0167ff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            grid-row: 1;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-row: 2;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        .blog-post {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .blog-post h2 {
+            margin-top: 0;
+        }
+
+        .blog-post img {
+            width: 100%; /* Make the image fill its container */
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .home {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #333;
+            background-color: #eee;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+
+        .home:hover {
+            background-color: #350eb7;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            grid-row: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>sabbah Post</h1>
+        </header>
+        <main>
+            <div class="content">
+                <article class="blog-post">
+                    <h2>C# language</h2>
+                    <img src="/ICONE/csharp.png" alt="Example Image">
+                    <p>In the realm of code, where languages thrive,
+                        C# stands tall, its prowess alive.
+                        Born from the halls of Microsoft's domain,
+                        It wields its power with finesse and gain.<br>
+                        With syntax sleek and semantics clear,
+                        C# whispers solutions, removing the fear.
+                        Object-oriented, its essence refined,
+                        Encouraging structures, both versatile and kind.<br>
+                        From desktop apps to web's vast domain,
+                        C# spreads its wings, refusing to wane.
+                        ASP.NET, Xamarin, Unity's embrace,
+                        In every realm, it finds its place.<br>
+                        LINQ's elegant dance with queries precise,
+                        Async tasks executed with seamless device.
+                        Generics and delegates, lambdas in flight,
+                        Functional aspects, a developer's delight.<br>
+                        Strongly typed, yet flexible in its might,
+                        C# guides developers through day and night.
+                        From beginners' code to enterprise's might,
+                        It fosters growth, unlocking insight.<br>
+                        In Visual Studio's comforting hold,
+                        C# developers craft stories bold.
+                        Debugging woes met with tools supreme,
+                        Testing, profiling, a developer's dream.<br>
+                        NuGet packages, a treasure trove,
+                        Enhancing C# with libraries to rove.
+                        Documentation, a beacon bright,
+                        Guiding developers through code's darkest night.<br>
+                        Community-driven, a vibrant throng,
+                        Stack Overflow's chorus, a helping song.
+                        Conferences, meetups, where minds unite,
+                        Sharing innovations, igniting the light.<br>
+                        With every iteration, C# evolves,
+                        New features emerge, solving conundrums' resolves.
+                        But at its core, it remains steadfast,
+                        A language of power, destined to last.<br>
+                        So here's to C#, its legacy secure,
+                        In the world of code, forever mature.
+                        With each line written, a story untold,
+                        In the tapestry of tech, C# boldly unfolds.</p>
+                    <a href="index.html" class="home">home</a>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 sabbah Blog</p>
+        </footer>
+    </div>
+</body>
+</html>
